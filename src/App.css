@@ -1,0 +1,30 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+#wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+#sidebar-wrapper {
+  width: 250px;
+}
+
+#page-content-wrapper {
+  flex: 1;
+  overflow-x: hidden;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.chart-container > div {
+  width: 30%;
+  min-width: 300px;
+  margin-bottom: 20px;
+}

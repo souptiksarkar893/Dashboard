@@ -1,0 +1,15 @@
+#sidebar-wrapper {
+  height: 100vh;
+}
+
+.sidebar-heading {
+  padding: 1rem;
+}
+
+.list-group-item {
+  padding: 1rem;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+}
